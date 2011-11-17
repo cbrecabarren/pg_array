@@ -3,7 +3,7 @@
 Convert PostgreSQL arrays to Ruby arrays.
 
 
-== Example ==
+== Example
 
   require 'pg_array'
    
