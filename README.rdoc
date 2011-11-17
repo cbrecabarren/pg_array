@@ -1,0 +1,10 @@
+= PgArray 
+
+Convert PostgreSQL arrays to Ruby arrays.
+
+
+== Example ==
+
+  require 'pg_array'
+   
+  PgArray.new("{1,2,3}").to_a  # => ["1", "2", "3"]
